@@ -1,0 +1,4 @@
+interface:
+  display_name: "智能体调度"
+  short_description: "用独立 subagent 和模型路由执行任务"
+  default_prompt: "使用 $agent-orchestrate 通过独立 subagent 执行这个任务；分派后必须使用 wait_agent 等待返回、审查结果、close_agent 释放句柄，再继续调度或报告。"
