@@ -153,8 +153,8 @@ Codex 中，subagent 返回必须显式落到 multi-agent 工具链：
 | 任务类型 | 模型 | 推理等级 |
 | --- | --- | --- |
 | 轻量审计、日志抽取、字段核对 | `gpt-5.4-mini` | `low` |
-| 纯代码、实现、机械性修改 | `gpt-5.3-codex` | `medium` |
-| 常规代码审计、安全边界检查、测试覆盖审查 | `gpt-5.3-codex` | `medium` |
+| 纯代码、实现、机械性修改 | `gpt-5.4-mini` | `medium` |
+| 常规代码审计、安全边界检查、测试覆盖审查 | `gpt-5.4-mini` | `medium` |
 | 一般推理、审查、集成判断 | `gpt-5.4` | `medium` |
 | 整理、小修改、摘要 | `gpt-5.4-mini` | `low` |
 | 交易安全、RiskGate、权限、止损、审计链路等高风险审计 | `gpt-5.5` | `medium` 或 `high` |
